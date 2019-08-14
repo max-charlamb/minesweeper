@@ -303,7 +303,7 @@ class Board():
 
     def getState(self):
         """Returns important variables about the current state of the board."""
-            return [self.state, self.size, self.bombs, self.flagged]
+        return [self.state, self.size, self.bombs, self.flagged]
 
     def revealAll(self):
         """Reveals all tiles."""
